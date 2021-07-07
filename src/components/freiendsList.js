@@ -373,7 +373,7 @@ const FriendsList = props => {
             if (list1[i].name.toLowerCase() == n.toLowerCase()) {
                 list1[i].favourite = !list1[i].favourite
                 if (list1[i].favourite == true) {
-                    setMessage("Successfully added from your favourites.")
+                    setMessage("Successfully added to your favourites.")
                     setStatus(2)
                     setTimeout(() => {
                         setMessage("")
